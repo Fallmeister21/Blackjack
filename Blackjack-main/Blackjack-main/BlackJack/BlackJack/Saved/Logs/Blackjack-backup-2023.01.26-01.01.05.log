@@ -1,0 +1,887 @@
+﻿Log file open, 01/25/23 19:45:54
+LogInit: Display: Running engine for game: Blackjack
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.190033
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11370H @ 3.30GHz, GPU: Intel(R) Iris(R) Xe Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.01.26-00.45.55:363][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.01.26-00.45.55:364][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:364][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.01.26-00.45.55:367][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.01.26-00.45.55:367][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.26-00.45.55:367][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.26-00.45.55:367][  0]LogHAL: Display: Platform has ~ 16 GB [16856203264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.01.26-00.45.55:367][  0]LogInit: Going up to parent DeviceProfile []
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Scalability.ini]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.01.26-00.45.55:368][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.01.26-00.45.55:369][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.01.26-00.45.55:369][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.01.26-00.45.55:369][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.01.26-00.45.55:370][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Config/Windows/Engine.ini]
+[2023.01.26-00.45.55:370][  0]LogInit: Computer: ASUS-TYLER
+[2023.01.26-00.45.55:370][  0]LogInit: User: Alex
+[2023.01.26-00.45.55:370][  0]LogInit: CPU Page size=4096, Cores=4
+[2023.01.26-00.45.55:370][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.26-00.45.55:370][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2023.01.26-00.45.55:370][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.26-00.45.55:370][  0]LogMemory: Process Physical Memory: 114.74 MB used, 114.74 MB peak
+[2023.01.26-00.45.55:370][  0]LogMemory: Process Virtual Memory: 96.11 MB used, 96.11 MB peak
+[2023.01.26-00.45.55:370][  0]LogMemory: Physical Memory: 7501.58 MB used,  8573.75 MB free, 16075.33 MB total
+[2023.01.26-00.45.55:370][  0]LogMemory: Virtual Memory: 5144.98 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2023.01.26-00.45.55:373][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.01.26-00.45.55:408][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.01.26-00.45.55:409][  0]LogInit: Using OS detected language (en-US).
+[2023.01.26-00.45.55:409][  0]LogInit: Using OS detected locale (en-US).
+[2023.01.26-00.45.55:413][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.01.26-00.45.55:625][  0]LogInit: Setting process to per monitor DPI aware
+[2023.01.26-00.45.55:655][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.01.26-00.45.55:655][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.01.26-00.45.57:804][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.26-00.45.57:804][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.01.26-00.45.57:804][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.01.26-00.45.57:804][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.26-00.45.57:957][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3070 Laptop GPU' (Feature Level 11_0)
+[2023.01.26-00.45.57:957][  0]LogD3D11RHI:       8044/0/8037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.01.26-00.45.57:993][  0]LogD3D11RHI:    1. 'Intel(R) Iris(R) Xe Graphics' (Feature Level 11_0)
+[2023.01.26-00.45.57:993][  0]LogD3D11RHI:       128/0/8037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2023.01.26-00.45.57:996][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.26-00.45.57:996][  0]LogD3D11RHI:       0/0/8037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.26-00.45.57:996][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.01.26-00.45.58:002][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.26-00.45.58:002][  0]LogD3D11RHI:     GPU DeviceId: 0x249d (for the marketing name, search the web for "GPU Device Id")
+[2023.01.26-00.45.58:002][  0]LogWindows: EnumDisplayDevices:
+[2023.01.26-00.45.58:002][  0]LogWindows:    0. 'Intel(R) Iris(R) Xe Graphics' (P:1 D:1)
+[2023.01.26-00.45.58:002][  0]LogWindows:    1. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.01.26-00.45.58:003][  0]LogWindows:    2. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.01.26-00.45.58:003][  0]LogWindows:    3. 'Intel(R) Iris(R) Xe Graphics' (P:0 D:0)
+[2023.01.26-00.45.58:003][  0]LogWindows:    4. 'NVIDIA GeForce RTX 3070 Laptop GPU' (P:0 D:0)
+[2023.01.26-00.45.58:004][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2023.01.26-00.45.58:004][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3070 Laptop GPU
+[2023.01.26-00.45.58:004][  0]LogD3D11RHI:   Driver Version: 512.78 (internal:30.0.15.1278, unified:512.78)
+[2023.01.26-00.45.58:004][  0]LogD3D11RHI:      Driver Date: 5-5-2022
+[2023.01.26-00.45.58:004][  0]LogRHI: Texture pool is 5630 MB (70% of 8044 MB)
+[2023.01.26-00.45.58:051][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.01.26-00.45.58:051][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.26-00.45.58:051][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.01.26-00.45.58:079][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.01.26-00.45.58:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.01.26-00.45.58:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.01.26-00.45.58:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.01.26-00.45.58:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.01.26-00.45.58:394][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.01.26-00.45.58:402][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.01.26-00.45.58:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.01.26-00.45.58:417][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.01.26-00.45.58:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.01.26-00.45.58:432][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.01.26-00.45.58:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.01.26-00.45.58:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.01.26-00.45.58:466][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.01.26-00.45.58:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.01.26-00.45.58:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.01.26-00.45.58:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.01.26-00.45.58:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.01.26-00.45.58:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.01.26-00.45.58:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.01.26-00.45.58:514][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.26-00.45.58:520][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.01.26-00.45.58:565][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Intermediate/Shaders/WorkingDirectory/20628/).
+[2023.01.26-00.45.58:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/61EB88254ECD012FB6842CAD4A382E5C/'.
+[2023.01.26-00.45.58:566][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.01.26-00.45.58:566][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.01.26-00.45.58:566][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.26-00.46.01:122][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/Alex/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.26-00.46.01:194][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.26-00.46.01:213][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.26-00.46.01:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.26-00.46.01:214][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.01.26-00.46.01:215][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.26-00.46.01:215][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.01.26-00.46.01:215][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.01.26-00.46.01:257][  0]LogSlate: Using FreeType 2.10.0
+[2023.01.26-00.46.01:258][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.26-00.46.01:276][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2023.01.26-00.46.01:469][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.26-00.46.01:632][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.26-00.46.01:632][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.01.26-00.46.01:632][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.01.26-00.46.01:632][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.01.26-00.46.01:632][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.01.26-00.46.01:669][  0]LogNetVersion: Blackjack 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1130233218)
+[2023.01.26-00.46.02:614][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000179079D8380), frame # 0
+[2023.01.26-00.46.02:614][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017908938540), frame # 0
+[2023.01.26-00.46.02:615][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001790897C800), frame # 0
+[2023.01.26-00.46.02:674][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.043092 seconds
+[2023.01.26-00.46.02:678][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2023.01.26-00.46.02:678][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2023.01.26-00.46.02:678][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.26-00.46.03:208][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.26-00.46.03:212][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.26-00.46.03:307][  0]SourceControl: Source control is disabled
+[2023.01.26-00.46.03:308][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2023.01.26-00.46.03:308][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2023.01.26-00.46.03:308][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2023.01.26-00.46.03:308][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2023.01.26-00.46.03:516][  0]LogSourceControl: Warning: '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/' is not part of a Git repository
+[2023.01.26-00.46.03:781][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.26-00.46.03:796][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.26-00.46.03:796][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.26-00.46.03:855][  0]LogOcInput: OculusInput pre-init called
+[2023.01.26-00.46.03:863][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.01.26-00.46.03:863][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.01.26-00.46.03:924][  0]LogEngine: Initializing Engine...
+[2023.01.26-00.46.03:925][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.26-00.46.03:925][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.01.26-00.46.03:926][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.01.26-00.46.04:169][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.01.26-00.46.04:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.26-00.46.04:176][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001790E139C00), frame # 0
+[2023.01.26-00.46.04:176][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001790E17C680), frame # 0
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.26-00.46.04:179][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.26-00.46.04:179][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.01.26-00.46.04:179][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.26-00.46.04:188][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.26-00.46.04:188][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.01.26-00.46.04:508][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2023.01.26-00.46.04:509][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.26-00.46.04:529][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.26-00.46.04:529][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.26-00.46.04:530][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.26-00.46.04:531][  0]LogInit: FAudioDevice initialized.
+[2023.01.26-00.46.04:531][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.01.26-00.46.04:576][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/Alex/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.01.26-00.46.04:577][  0]LogInit: Texture streaming: Enabled
+[2023.01.26-00.46.04:589][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.26-00.46.04:589][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={ADF57615-4FC7-BEB7-828B-E0B0962D0617}
+[2023.01.26-00.46.04:589][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.01.26-00.46.04:590][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.01.26-00.46.04:619][  0]LogInit: Transaction tracking system initialized
+[2023.01.26-00.46.04:639][  0]BlueprintLog: New page: Editor Load
+[2023.01.26-00.46.04:695][  0]LocalizationService: Localization service is disabled
+[2023.01.26-00.46.05:025][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.01.26-00.46.05:025][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.26-00.46.05:155][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/' took 0.00s
+[2023.01.26-00.46.05:458][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.26-00.46.13:811][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2023.01.26-00.46.18:161][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2023.01.26-00.46.18:166][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/inerface/widgets/Main_Menu_Widget
+/Game/inerface/widgets/Table_Widget
+/Game/Card_struct
+[2023.01.26-00.46.18:172][  0]LogUnrealEdMisc: Loading editor; pre map load, took 26.098
+[2023.01.26-00.46.18:173][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.26-00.46.18:183][  0]LightingResults: New page: Lighting Build
+[2023.01.26-00.46.18:184][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-00.46.18:184][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-00.46.18:184][  0]MapCheck: New page: Map Check
+[2023.01.26-00.46.18:184][  0]LightingResults: New page: Lighting Build
+[2023.01.26-00.46.18:196][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001790E139C00), frame # 0
+[2023.01.26-00.46.18:196][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001790E17C680), frame # 0
+[2023.01.26-00.46.18:197][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.01.26-00.46.18:340][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2023.01.26-00.46.18:340][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017900C39000), frame # 0
+[2023.01.26-00.46.18:340][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017978911A80), frame # 0
+[2023.01.26-00.46.18:348][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.26-00.46.18:356][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.01.26-00.46.18:356][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.26-00.46.18:357][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2023.01.26-00.46.18:357][  0]LogFileHelpers: Loading map 'Template_Default' took 0.184
+[2023.01.26-00.46.18:359][  0]LogUnrealEdMisc: Total Editor Startup Time, took 26.284
+[2023.01.26-00.46.18:405][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-00.46.18:410][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-00.46.18:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-00.46.18:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.26-00.46.18:424][  0]LogCollectionManager: Loaded 0 collections in 0.001145 seconds
+[2023.01.26-00.46.18:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Collections/' took 0.00s
+[2023.01.26-00.46.18:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/Developers/Alex/Collections/' took 0.00s
+[2023.01.26-00.46.18:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/Collections/' took 0.00s
+[2023.01.26-00.46.18:434][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3427 classes and 821 folders.
+[2023.01.26-00.46.18:437][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.01.26-00.46.18:697][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.01.26-00.46.18:697][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2023.01.26-00.46.18:713][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.26-00.46.18:722][  0]LogSlate: Took 0.006084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.26-00.46.18:782][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2023.01.26-00.46.18:860][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.01.26-00.46.18:860][  0]LogLoad: (Engine Initialization) Total time: 26.79 seconds
+[2023.01.26-00.46.18:860][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.26-00.46.18:896][  0]LogAssetRegistry: Asset discovery search completed in 17.6215 seconds
+[2023.01.26-00.46.18:901][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2023.01.26-00.46.18:910][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.26-00.46.18:954][  0]LogSlate: Took 0.009055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.26-00.46.19:877][106]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.26-00.46.28:715][127]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Card_struct.Card_struct
+[2023.01.26-00.46.33:401][606]LogSlate: Window 'Card_struct' being destroyed
+[2023.01.26-00.46.37:703][119]LogAssetEditorSubsystem: Opening Asset editor for World /Game/maps/Table_Map.Table_Map
+[2023.01.26-00.46.37:711][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.01.26-00.46.37:712][119]Cmd: MAP LOAD FILE="../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/maps/Table_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.26-00.46.37:712][119]LightingResults: New page: Lighting Build
+[2023.01.26-00.46.37:712][119]LoadErrors: New page: Loading map: Table_Map.umap
+[2023.01.26-00.46.37:712][119]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.26-00.46.37:712][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.26-00.46.37:712][119]MapCheck: New page: Map Check
+[2023.01.26-00.46.37:712][119]LightingResults: New page: Lighting Build
+[2023.01.26-00.46.37:721][119]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017900C39000), frame # 2119
+[2023.01.26-00.46.37:721][119]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017978911A80), frame # 2119
+[2023.01.26-00.46.37:721][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.01.26-00.46.37:723][119]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.26-00.46.37:723][119]LogAIModule: Creating AISystem for world Table_Map
+[2023.01.26-00.46.37:723][119]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017936A8C200), frame # 2119
+[2023.01.26-00.46.37:723][119]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001790DD7D080), frame # 2119
+[2023.01.26-00.46.37:732][119]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.01.26-00.46.37:743][119]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.26-00.46.37:743][119]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.129ms to complete.
+[2023.01.26-00.46.37:743][119]LogFileHelpers: Loading map 'Table_Map' took 0.032
+[2023.01.26-00.46.41:804][600]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/inerface/widgets/Table_Widget.Table_Widget
+[2023.01.26-00.46.42:089][600]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2023.01.26-00.46.42:876][600]LogSlate: Took 0.005009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.26-00.47.52:503][334]LogSlate: Took 0.003928 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.01.26-00.49.37:881][791]LogAssetTools: Exporting "/Game/images/card/Red_Joker.Red_Joker" to "C:/Users/Alex/Desktop/test/Game/images/card/Red_Joker.T3D"
+[2023.01.26-00.49.37:890][791]LogAssetTools: Exporting "/Game/images/card/10_of_Clubs.10_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/10_of_Clubs.T3D"
+[2023.01.26-00.49.37:898][791]LogAssetTools: Exporting "/Game/images/card/10_of_Diamonds.10_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/10_of_Diamonds.T3D"
+[2023.01.26-00.49.37:907][791]LogAssetTools: Exporting "/Game/images/card/10_of_Hearts.10_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/10_of_Hearts.T3D"
+[2023.01.26-00.49.37:916][791]LogAssetTools: Exporting "/Game/images/card/10_of_Spades.10_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/10_of_Spades.T3D"
+[2023.01.26-00.49.37:924][791]LogAssetTools: Exporting "/Game/images/card/2_of_Clubs.2_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/2_of_Clubs.T3D"
+[2023.01.26-00.49.37:934][791]LogAssetTools: Exporting "/Game/images/card/2_of_Diamonds.2_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/2_of_Diamonds.T3D"
+[2023.01.26-00.49.37:944][791]LogAssetTools: Exporting "/Game/images/card/2_of_Hearts.2_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/2_of_Hearts.T3D"
+[2023.01.26-00.49.37:952][791]LogAssetTools: Exporting "/Game/images/card/2_of_Spades.2_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/2_of_Spades.T3D"
+[2023.01.26-00.49.37:961][791]LogAssetTools: Exporting "/Game/images/card/3_of_Clubs.3_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/3_of_Clubs.T3D"
+[2023.01.26-00.49.37:970][791]LogAssetTools: Exporting "/Game/images/card/3_of_Diamonds.3_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/3_of_Diamonds.T3D"
+[2023.01.26-00.49.37:978][791]LogAssetTools: Exporting "/Game/images/card/3_of_Hearts.3_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/3_of_Hearts.T3D"
+[2023.01.26-00.49.37:987][791]LogAssetTools: Exporting "/Game/images/card/3_of_Spades.3_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/3_of_Spades.T3D"
+[2023.01.26-00.49.37:996][791]LogAssetTools: Exporting "/Game/images/card/4_of_Clubs.4_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/4_of_Clubs.T3D"
+[2023.01.26-00.49.38:004][791]LogAssetTools: Exporting "/Game/images/card/4_of_Diamonds.4_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/4_of_Diamonds.T3D"
+[2023.01.26-00.49.38:013][791]LogAssetTools: Exporting "/Game/images/card/4_of_Hearts.4_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/4_of_Hearts.T3D"
+[2023.01.26-00.49.38:021][791]LogAssetTools: Exporting "/Game/images/card/4_of_Spades.4_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/4_of_Spades.T3D"
+[2023.01.26-00.49.38:028][791]LogAssetTools: Exporting "/Game/images/card/5_of_Clubs.5_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/5_of_Clubs.T3D"
+[2023.01.26-00.49.38:035][791]LogAssetTools: Exporting "/Game/images/card/5_of_Diamonds.5_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/5_of_Diamonds.T3D"
+[2023.01.26-00.49.38:043][791]LogAssetTools: Exporting "/Game/images/card/5_of_Hearts.5_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/5_of_Hearts.T3D"
+[2023.01.26-00.49.38:050][791]LogAssetTools: Exporting "/Game/images/card/5_of_Spades.5_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/5_of_Spades.T3D"
+[2023.01.26-00.49.38:057][791]LogAssetTools: Exporting "/Game/images/card/6_of_Clubs.6_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/6_of_Clubs.T3D"
+[2023.01.26-00.49.38:064][791]LogAssetTools: Exporting "/Game/images/card/6_of_Diamonds.6_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/6_of_Diamonds.T3D"
+[2023.01.26-00.49.38:071][791]LogAssetTools: Exporting "/Game/images/card/6_of_Hearts.6_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/6_of_Hearts.T3D"
+[2023.01.26-00.49.38:078][791]LogAssetTools: Exporting "/Game/images/card/6_of_Spades.6_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/6_of_Spades.T3D"
+[2023.01.26-00.49.38:086][791]LogAssetTools: Exporting "/Game/images/card/7_of_Clubs.7_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/7_of_Clubs.T3D"
+[2023.01.26-00.49.38:094][791]LogAssetTools: Exporting "/Game/images/card/7_of_Diamonds.7_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/7_of_Diamonds.T3D"
+[2023.01.26-00.49.38:102][791]LogAssetTools: Exporting "/Game/images/card/7_of_Hearts.7_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/7_of_Hearts.T3D"
+[2023.01.26-00.49.38:110][791]LogAssetTools: Exporting "/Game/images/card/7_of_Spades.7_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/7_of_Spades.T3D"
+[2023.01.26-00.49.38:117][791]LogAssetTools: Exporting "/Game/images/card/8_of_Clubs.8_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/8_of_Clubs.T3D"
+[2023.01.26-00.49.38:124][791]LogAssetTools: Exporting "/Game/images/card/8_of_Diamonds.8_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/8_of_Diamonds.T3D"
+[2023.01.26-00.49.38:132][791]LogAssetTools: Exporting "/Game/images/card/8_of_Hearts.8_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/8_of_Hearts.T3D"
+[2023.01.26-00.49.38:139][791]LogAssetTools: Exporting "/Game/images/card/8_of_Spades.8_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/8_of_Spades.T3D"
+[2023.01.26-00.49.38:146][791]LogAssetTools: Exporting "/Game/images/card/9_of_Clubs.9_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/9_of_Clubs.T3D"
+[2023.01.26-00.49.38:152][791]LogAssetTools: Exporting "/Game/images/card/9_of_Diamonds.9_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/9_of_Diamonds.T3D"
+[2023.01.26-00.49.38:159][791]LogAssetTools: Exporting "/Game/images/card/9_of_Hearts.9_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/9_of_Hearts.T3D"
+[2023.01.26-00.49.38:166][791]LogAssetTools: Exporting "/Game/images/card/9_of_Spades.9_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/9_of_Spades.T3D"
+[2023.01.26-00.49.38:173][791]LogAssetTools: Exporting "/Game/images/card/Ace_of_Clubs.Ace_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/Ace_of_Clubs.T3D"
+[2023.01.26-00.49.38:180][791]LogAssetTools: Exporting "/Game/images/card/Ace_of_Diamonds.Ace_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/Ace_of_Diamonds.T3D"
+[2023.01.26-00.49.38:187][791]LogAssetTools: Exporting "/Game/images/card/Ace_of_Hearts.Ace_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/Ace_of_Hearts.T3D"
+[2023.01.26-00.49.38:194][791]LogAssetTools: Exporting "/Game/images/card/Ace_of_Spades.Ace_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/Ace_of_Spades.T3D"
+[2023.01.26-00.49.38:201][791]LogAssetTools: Exporting "/Game/images/card/Black_Joker.Black_Joker" to "C:/Users/Alex/Desktop/test/Game/images/card/Black_Joker.T3D"
+[2023.01.26-00.49.38:208][791]LogAssetTools: Exporting "/Game/images/card/Card_Backing.Card_Backing" to "C:/Users/Alex/Desktop/test/Game/images/card/Card_Backing.T3D"
+[2023.01.26-00.49.38:215][791]LogAssetTools: Exporting "/Game/images/card/Jack_of_Clubs.Jack_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/Jack_of_Clubs.T3D"
+[2023.01.26-00.49.38:222][791]LogAssetTools: Exporting "/Game/images/card/Jack_of_Diamonds.Jack_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/Jack_of_Diamonds.T3D"
+[2023.01.26-00.49.38:230][791]LogAssetTools: Exporting "/Game/images/card/Jack_of_Hearts.Jack_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/Jack_of_Hearts.T3D"
+[2023.01.26-00.49.38:236][791]LogAssetTools: Exporting "/Game/images/card/Jack_of_Spades.Jack_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/Jack_of_Spades.T3D"
+[2023.01.26-00.49.38:243][791]LogAssetTools: Exporting "/Game/images/card/King_of_Clubs.King_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/King_of_Clubs.T3D"
+[2023.01.26-00.49.38:251][791]LogAssetTools: Exporting "/Game/images/card/King_of_Diamonds.King_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/King_of_Diamonds.T3D"
+[2023.01.26-00.49.38:258][791]LogAssetTools: Exporting "/Game/images/card/King_of_Hearts.King_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/King_of_Hearts.T3D"
+[2023.01.26-00.49.38:265][791]LogAssetTools: Exporting "/Game/images/card/Kin_of_Spades.Kin_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/Kin_of_Spades.T3D"
+[2023.01.26-00.49.38:273][791]LogAssetTools: Exporting "/Game/images/card/Queen_of_Clubs.Queen_of_Clubs" to "C:/Users/Alex/Desktop/test/Game/images/card/Queen_of_Clubs.T3D"
+[2023.01.26-00.49.38:281][791]LogAssetTools: Exporting "/Game/images/card/Queen_of_Diamonds.Queen_of_Diamonds" to "C:/Users/Alex/Desktop/test/Game/images/card/Queen_of_Diamonds.T3D"
+[2023.01.26-00.49.38:291][791]LogAssetTools: Exporting "/Game/images/card/Queen_of_Hearts.Queen_of_Hearts" to "C:/Users/Alex/Desktop/test/Game/images/card/Queen_of_Hearts.T3D"
+[2023.01.26-00.49.38:301][791]LogAssetTools: Exporting "/Game/images/card/Queen_of_Spades.Queen_of_Spades" to "C:/Users/Alex/Desktop/test/Game/images/card/Queen_of_Spades.T3D"
+[2023.01.26-00.50.30:720][841]LogSlate: Window 'Message' being destroyed
+[2023.01.26-00.50.30:724][841]Message dialog closed, result: No, title: Message, text: Would you like to cancel exporting the next 54 files as well?
+[2023.01.26-00.50.33:382][841]LogSlate: Window 'Message' being destroyed
+[2023.01.26-00.50.33:386][841]Message dialog closed, result: Yes, title: Message, text: Would you like to cancel exporting the next 53 files as well?
+[2023.01.26-00.51.38:078][191]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2023.01.26-00.51.38:079][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maps/Table_Map' took 0.062
+[2023.01.26-00.51.38:080][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/inerface/widgets/Table_Widget] ([1] browsable assets)...
+[2023.01.26-00.51.38:080][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/inerface/widgets/Table_Widget]
+[2023.01.26-00.51.38:097][191]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Table_Widget_Auto1312FE1B946F4F826A9002DAB9D08B18F.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Autosaves/Game/inerface/widgets/Table_Widget_Auto1.uasset'
+[2023.01.26-00.51.38:099][191]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Card_struct] ([1] browsable assets)...
+[2023.01.26-00.51.38:099][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/Card_struct]
+[2023.01.26-00.51.38:107][191]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Card_struct_Auto1B2F6D63545F801406CAFEB90D8C0A272.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Autosaves/Game/Card_struct_Auto1.uasset'
+[2023.01.26-00.51.38:110][191]LogFileHelpers: Auto-saving content packages took 0.030
+[2023.01.26-00.52.24:828][338]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2023.01.26-00.52.27:477][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.01.26-00.52.29:258][648]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.26-00.52.29:328][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.26-00.52.34:247][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/images/card/10_of_Clubs" FILE="../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset" SILENT=true
+[2023.01.26-00.52.34:253][221]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/10_of_ClubsF55DE4CA445D3637000C5786CECC8CC1.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset'
+[2023.01.26-00.52.34:263][221]AssetCheck: New page: Asset Save: 10_of_Clubs
+[2023.01.26-00.52.34:263][221]LogContentValidation: Display: Validating PaperSprite /Game/images/card/10_of_Clubs.10_of_Clubs
+[2023.01.26-00.52.37:821][638]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/images/card/10_of_Clubs.10_of_Clubs
+[2023.01.26-00.52.37:905][639]LogRenderer: Reallocating scene render targets to support 1528x916 Format 10 NumSamples 1 (Frame:1).
+[2023.01.26-00.52.39:658][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/images/card/10_of_Clubs" FILE="../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset" SILENT=true
+[2023.01.26-00.52.39:663][843]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/10_of_Clubs0749429148B32DD245F46BBBBCC2DDCE.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset'
+[2023.01.26-00.52.39:672][843]AssetCheck: New page: Asset Save: 10_of_Clubs
+[2023.01.26-00.52.39:672][843]LogContentValidation: Display: Validating PaperSprite /Game/images/card/10_of_Clubs.10_of_Clubs
+[2023.01.26-00.52.46:083][111]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.26-00.53.06:865][589]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.01.26-00.53.18:329][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/images/card/10_of_Clubs" FILE="../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset" SILENT=true
+[2023.01.26-00.53.18:334][960]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/10_of_ClubsCA9E20C2482D02C235332F9080EC58AE.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/images/card/10_of_Clubs.uasset'
+[2023.01.26-00.53.18:343][960]AssetCheck: New page: Asset Save: 10_of_Clubs
+[2023.01.26-00.53.18:343][960]LogContentValidation: Display: Validating PaperSprite /Game/images/card/10_of_Clubs.10_of_Clubs
+[2023.01.26-00.57.22:383][898]LogSlate: Window 'Content Browser 2' being destroyed
+[2023.01.26-00.57.41:243][134]BlueprintLog: New page: Compile Table_Widget
+[2023.01.26-00.57.41:273][134]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.01.26-00.57.56:746][959]LogSlate: Took 0.006508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.01.26-00.58.24:250][232]LogEditorTransaction: Undo Add Widget
+[2023.01.26-00.58.24:475][247]LogEditorTransaction: Undo Remove Widget
+[2023.01.26-00.59.06:317][199]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Table_WidgetB0FFAA0142E2750BBF342C90D361D6EA.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/inerface/widgets/Table_Widget.uasset'
+[2023.01.26-00.59.06:329][199]AssetCheck: New page: Asset Save: Table_Widget
+[2023.01.26-00.59.06:329][199]LogContentValidation: Display: Validating WidgetBlueprint /Game/inerface/widgets/Table_Widget.Table_Widget
+[2023.01.26-00.59.40:619][274]BlueprintLog: New page: Compile Table_Widget
+[2023.01.26-00.59.40:649][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.01.26-01.01.03:118][100]LogSavePackage: Moving '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Saved/Table_WidgetC33EA3354218DD0506C3AC83418DC6CD.tmp' to '../../../../../../Users/Alex/Desktop/GamePrograming/Unreal Projects/BlackJack/Content/inerface/widgets/Table_Widget.uasset'
+[2023.01.26-01.01.03:129][100]AssetCheck: New page: Asset Save: Table_Widget
+[2023.01.26-01.01.03:129][100]LogContentValidation: Display: Validating WidgetBlueprint /Game/inerface/widgets/Table_Widget.Table_Widget
+[2023.01.26-01.01.04:006][202]BlueprintLog: New page: Compile Table_Widget
+[2023.01.26-01.01.04:032][202]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.01.26-01.01.04:043][202]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.01.26-01.01.04:043][202]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2023.01.26-01.01.05:010][202]LogWindows: Error: === Critical error: ===
+[2023.01.26-01.01.05:010][202]LogWindows: Error: 
+[2023.01.26-01.01.05:010][202]LogWindows: Error: Assertion failed: ContainerPtr [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Public\UObject/UnrealType.h] [Line: 356] 
+[2023.01.26-01.01.05:010][202]LogWindows: Error: 
+[2023.01.26-01.01.05:010][202]LogWindows: Error: 
+[2023.01.26-01.01.05:010][202]LogWindows: Error: 
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007ff81d96cd29 KERNELBASE.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff98d4ec66 UE4Editor-Core.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff98d52048 UE4Editor-Core.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff98ade52d UE4Editor-Core.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff98a697c5 UE4Editor-Core.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff98a6bb00 UE4Editor-Core.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fffce420e59 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fffce62a294 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fffce5c4f51 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fffce5c5198 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fffce5c59ba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff80728098 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff805b5229 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff805bcb03 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff805a0c16 UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff80585ffd UE4Editor-PropertyEditor.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff983f1f2b UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff985795b1 UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff9857a0e0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f3afda UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88c5a UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:010][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f88b57 UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff97f9463d UE4Editor-SlateCore.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff9834880d UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff9831959b UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff9834a25a UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff98370af0 UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007fff98370024 UE4Editor-Slate.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff7baf58735 UE4Editor.exe!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff7baf6ba7c UE4Editor.exe!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff7baf6bb5a UE4Editor.exe!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff7baf7e31d UE4Editor.exe!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff7baf8145a UE4Editor.exe!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff81f3f7614 KERNEL32.DLL!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: [Callstack] 0x00007ff8200826a1 ntdll.dll!UnknownFunction []
+[2023.01.26-01.01.05:011][202]LogWindows: Error: 
+[2023.01.26-01.01.05:024][202]LogExit: Executing StaticShutdownAfterError
+[2023.01.26-01.01.05:029][202]LogWindows: FPlatformMisc::RequestExit(1)
+[2023.01.26-01.01.05:029][202]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.01.26-01.01.05:038][202]Log file closed, 01/25/23 20:01:05
